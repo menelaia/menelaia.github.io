@@ -1,0 +1,12 @@
+.description {
+  color: var(--dark);
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.description__line {
+  font-size: 13px;
+  margin-bottom: 12px;
+  margin-top: -9px;
+}

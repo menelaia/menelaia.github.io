@@ -1,0 +1,1 @@
+export { resolveCardComponent } from './componentResolver';

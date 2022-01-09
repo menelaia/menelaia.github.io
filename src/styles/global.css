@@ -1,0 +1,37 @@
+html,
+body,
+#___gatsby {
+  background: rgb(201 212 216);
+  background: linear-gradient(163deg, rgb(201 212 216 / 100%) 0%, rgb(74 25 105 / 100%) 100%);
+  background-image: url("../images/bio.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Epilogue, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  min-width: 350px;
+  overflow: hidden;
+  padding: 0;
+  width: 100%;
+}
+
+html {
+  overflow-y: auto;
+}
+
+p {
+  user-select: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --white: whitesmoke;
+  --dark: rgb(35 35 35);
+  --purple: #e3b6ff;
+  --card-bg: rgb(221 204 238 / 50%);
+  --card-bg-hover: rgb(230 218 242 / 75%);
+}

@@ -1,0 +1,13 @@
+.icon-row__icon-container {
+  padding: 10px;
+}
+
+.icon-row__icon {
+  color: var(--dark);
+  transition: 0.2s all ease-out;
+}
+
+.icon-row__icon:hover {
+  color: var(--purple);
+  transition: 0.2s all ease-in;
+}
