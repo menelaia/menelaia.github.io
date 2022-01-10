@@ -46,6 +46,17 @@
   width: 60%;
 }
 
+@media screen and (min-width: 375px)
+  and (max-width: 812px) {
+  .card__container {
+    width: 88%;
+  }
+
+  .medium-card__container {
+    width: 88%;
+  }
+}
+
 .medium-card__container:hover {
   backdrop-filter: blur(2px);
   background: var(--card-bg-hover);
